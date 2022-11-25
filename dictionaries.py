@@ -69,7 +69,7 @@ print (a)
 
 
 
-#Mehod clear
+#Method clear
 a = {5: 'VIT', '7': 'VELLORE'}
 a.clear (5)   # no parameter to be passed
 print (a)
@@ -165,6 +165,7 @@ print (b)
 
 a = {5: 'VIT', '7': 'VELLORE'}
 b = a.items()
+print (b)
 print ("The elements of a:", b)
 del[a[5]]
 print ("The elements after delete:", b)
